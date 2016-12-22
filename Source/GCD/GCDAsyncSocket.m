@@ -8036,10 +8036,13 @@ static void CFWriteStreamCallback (CFWriteStreamRef stream, CFStreamEventType ty
 	BOOL r1, r2;
 	
 	LogVerbose(@"Enabling backgrouding on socket");
-	
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated"
 	r1 = CFReadStreamSetProperty(readStream, kCFStreamNetworkServiceType, kCFStreamNetworkServiceTypeVoIP);
 	r2 = CFWriteStreamSetProperty(writeStream, kCFStreamNetworkServiceType, kCFStreamNetworkServiceTypeVoIP);
-	
+#pragma clang diagnostic pop
+
 	if (!r1 || !r2)
 	{
 		return NO;
