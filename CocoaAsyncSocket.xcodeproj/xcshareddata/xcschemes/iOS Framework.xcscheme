@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6CD9900F1B77868C0011A685"
                BuildableName = "CocoaAsyncSocket.framework"
                BlueprintName = "iOS CocoaAsyncSocket"
-               ReferencedContainer = "container:../CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj">
+               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "6CD990191B77868C0011A685"
                BuildableName = "CocoaAsyncSocketTests.xctest"
                BlueprintName = "CocoaAsyncSocketTests"
-               ReferencedContainer = "container:../CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj">
+               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "6CD9900F1B77868C0011A685"
             BuildableName = "CocoaAsyncSocket.framework"
             BlueprintName = "iOS CocoaAsyncSocket"
-            ReferencedContainer = "container:../CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj">
+            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,7 +67,7 @@
             BlueprintIdentifier = "6CD9900F1B77868C0011A685"
             BuildableName = "CocoaAsyncSocket.framework"
             BlueprintName = "iOS CocoaAsyncSocket"
-            ReferencedContainer = "container:../CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj">
+            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,7 +85,7 @@
             BlueprintIdentifier = "6CD9900F1B77868C0011A685"
             BuildableName = "CocoaAsyncSocket.framework"
             BlueprintName = "iOS CocoaAsyncSocket"
-            ReferencedContainer = "container:../CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj">
+            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
